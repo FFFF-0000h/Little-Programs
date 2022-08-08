@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* copy input to output, replacing one or more blanks by a single blank */
+/* copy its input to its output, replacing each tab by \t, each backspace by \b, and each backslash by \\. */
 main()
 {
 	int c;

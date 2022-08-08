@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* copy input to output, replacing one or more blanks by a single blank */
+/* copy input to output, replacing each string of one or more blanks by a single blank */
 main()
 {
 	int c;
