@@ -9,20 +9,23 @@ main()
 		{
 			while ((c = getchar()) == '\t')
 				;
-			putchar('\t');
+			putchar('\\');
+			putchar('t');
 		}
 		
 			if (c == '\b')
 		{
 			while ((c = getchar()) == '\b')
 				;
-			putchar('\b');
+			putchar('\\');
+			putchar('b');
 		}
 		
 			if (c == '\\')
 		{
 			while ((c = getchar()) == '\\')
 				;
+			putchar('\\');
 			putchar('\\');
 		}
 		
