@@ -3,8 +3,6 @@
 main()
 {
 	int c;
-
-	newBlank = 0;
 	for (; (c = getchar()) != EOF;)
 	{
 		if (c == ' ')
