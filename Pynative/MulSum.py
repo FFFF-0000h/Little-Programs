@@ -11,4 +11,4 @@ def MulSum(num1,num2):
     else:
         return sum
 
-print(MulSum(num1,num2))
+print("The result is", MulSum(num1,num2))
