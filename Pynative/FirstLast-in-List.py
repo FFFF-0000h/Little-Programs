@@ -3,10 +3,22 @@
 list = []
 print("###########################################################")
 print("###########################################################")
-takeElem = input("Enter elements: ")
-for i in takeElem:
-    list.append(i)
-print("\nList =",list)
+print("Do you want a list of numbers or strings?")
+print("1. Number\n2. String")
+NumStrQuest = input()
+if NumStrQuest == "1":
+    takeElem = input("Enter numbers: ")
+    length = len(takeElem)
+    for i in range(length):
+        list.append(int(takeElem[i]))
+    print("\nList =",list)
+
+
+if NumStrQuest == "2":
+    takeElem = input("Enter strings: ")
+    for i in takeElem:
+        list.append(i)
+    print("\nList =",list)
 print("\n")
 
 def check(list):
