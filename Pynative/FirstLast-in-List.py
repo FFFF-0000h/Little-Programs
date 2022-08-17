@@ -12,6 +12,7 @@ if NumStrQuest == "1":
     for i in range(length):
         list.append(int(takeElem[i]))
     print("\nList =",list)
+print("\n")
 
 
 if NumStrQuest == "2":
