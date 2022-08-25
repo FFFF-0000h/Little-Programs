@@ -3,10 +3,10 @@
 
 num = input("Enter number: ")
 length = len(num)
-reverse = ""
+reverse = " "
 def palin(num):
     for i in range(length):
-        reverse = num[i::]
-        print(reverse)
-    print(reverse, end=" ")
+        reverse = num[::-1]
+        #print(reverse)
+    print(reverse)
 palin(num)
